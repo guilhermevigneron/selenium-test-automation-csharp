@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{872F1BD0-A0DD-4401-A211-29094D5EFA6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D89A1787-65E1-4E0D-95DB-44A8E1FE674B}"
+	ProjectSection(SolutionItems) = preProject
+		.tfignore = .tfignore
+		Parallel1.runsettings = Parallel1.runsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseNuget|Any CPU = ReleaseNuget|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.ReleaseNuget|Any CPU.ActiveCfg = ReleaseNuget|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.ReleaseNuget|Any CPU.Build.0 = ReleaseNuget|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.ReleaseNuget|Any CPU.ActiveCfg = ReleaseNuget|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.ReleaseNuget|Any CPU.Build.0 = ReleaseNuget|Any CPU
+	EndGlobalSection
+EndGlobal

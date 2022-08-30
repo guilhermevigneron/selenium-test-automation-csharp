@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "..\Framework\Framework.csproj", "{872F1BD0-A0DD-4401-A211-29094D5EFA6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseNuget|Any CPU = ReleaseNuget|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.ReleaseNuget|Any CPU.ActiveCfg = ReleaseNuget|Any CPU
+		{6FC0816D-0A41-4B44-A4F1-9D6CA0A3CB9E}.ReleaseNuget|Any CPU.Build.0 = ReleaseNuget|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.ReleaseNuget|Any CPU.ActiveCfg = ReleaseNuget|Any CPU
+		{872F1BD0-A0DD-4401-A211-29094D5EFA6A}.ReleaseNuget|Any CPU.Build.0 = ReleaseNuget|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DEEB501-891B-4806-A440-41A3F087C648}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		
+		SccProjectUniqueName0 = Tests.csproj
+		SccProjectName0 = .
+		
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\Framework\\Framework.csproj
+		SccProjectName1 = ../Framework
+		
+		SccLocalPath1 = ..\\Framework
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
